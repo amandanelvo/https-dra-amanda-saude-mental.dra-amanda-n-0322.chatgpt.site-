@@ -31,6 +31,7 @@ img { display: block; max-width: 100%; }
 .menu-button { display: none; border: 0; background: transparent; color: var(--ink); font-size: 26px; }
 
 .hero { min-height: 565px; display: grid; grid-template-columns: .92fr 1.08fr; gap: 56px; align-items: center; padding: 42px 0 56px; }
+.hero.no-art { grid-template-columns: 1fr; }
 .eyebrow { color: var(--terracotta); font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; }
 h1, h2, h3 { margin-top: 0; }
 h1 { font-family: "Libre Caslon Display", serif; font-size: clamp(52px, 6vw, 76px); line-height: .92; font-weight: 400; letter-spacing: -.035em; margin: 28px 0 36px; }
