@@ -25,6 +25,7 @@ img { display: block; max-width: 100%; }
   justify-content: space-between;
 }
 .brand img { width: 180px; mix-blend-mode: multiply; }
+.brand-text { font-family: "Libre Caslon Display", serif; font-size: 18px; color: var(--ink); font-weight: 400; letter-spacing: .02em; }
 .nav { display: flex; gap: 38px; align-items: center; font-size: 14px; font-weight: 400; }
 .nav a { padding: 8px 0; border-bottom: 1px solid transparent; transition: .2s ease; }
 .nav a:hover { color: var(--terracotta); border-color: currentColor; }
