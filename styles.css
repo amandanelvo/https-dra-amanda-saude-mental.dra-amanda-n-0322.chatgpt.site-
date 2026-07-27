@@ -96,7 +96,10 @@ h3 { font-family: "Libre Caslon Text", serif; font-size: 22px; font-weight: 400;
 .article-actions { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 16px; }
 .article-actions .button { min-height: 52px; padding: 0 26px; }
 .article-actions .text-button { border-bottom: 1px solid var(--line); }
-
+  .article-meta { display: flex; flex-wrap: wrap; gap: 16px; color: var(--muted); font-size: 0.95rem; margin-top: 16px; }
+  .article-meta span { display: inline-block; }
+  .emergency-note { margin-top: 0; color: var(--ink); font-size: 15px; line-height: 1.85; font-weight: 500; }
+  .footer-link { color: inherit; border-bottom: 1px solid currentColor; }
 .contact { width: min(1220px, calc(100% - 32px)); display: grid; grid-template-columns: 1.25fr .75fr; gap: 80px; padding: 80px; color: var(--white); background: var(--moss); }
 .contact .eyebrow { color: #efb6a2; }
 .contact h2 { max-width: 680px; }
